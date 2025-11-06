@@ -1,0 +1,72 @@
+@startuml DiagramaDeClasses_ONGVOA
+
+' Configuração para deixar os atributos e métodos visíveis
+hide circle
+skinparam classAttributeIconSize 0
+
+' ===================================
+' CLASSES E ATRIBUTOS
+' ===================================
+
+class Idoso {
+    ' Atributos Privados
+    - int idIdoso
+    - string nome
+    - date dataNascimento
+    - string genero
+    - string observacoes
+
+    ' Métodos Públicos
+    + void exibirDetalhes()
+}
+
+class Desejo {
+    ' Atributos Privados
+    - int idDesejo
+    - string descricaoItem
+    - string status {Disponível, Reservado, Entregue}
+    - datetime dataCadastro
+    - datetime dataAtualizacao
+    
+    ' Métodos Públicos
+    + void atualizarStatus(novoStatus)
+    + bool estaDisponivel()
+}
+
+class Padrinho {
+    ' Atributos Privados
+    - int idPadrinho
+    - string nome
+    - string telefoneWPP
+    - string email
+    
+    ' Métodos Públicos
+    + void reservar()
+    + void enviarConfirmacao()
+}
+
+class Administrador {
+    ' Atributos Privados
+    - int idAdmin
+    - string login
+    - string senhaHash
+    - string nomeCompleto
+    
+    ' Métodos Públicos
+    + bool autenticar(login, senha)
+    + void cadastrarDesejo(Idoso, Descricao)
+    + void confirmarEntrega(Desejo)
+}
+
+
+Idoso "1" -- "1" Desejo : tem
+
+
+Padrinho "1" o-- "0..*" Desejo : apadrinhadoPor >
+
+
+Administrador "1" -- "*" Idoso : gerencia
+
+Administrador "1" -- "*" Desejo : administra
+
+@enduml
