@@ -3,7 +3,7 @@
 
 ## Descrição do Problema 
 
-A dinâmica natalina da [ONG VOA] (https://www.instagram.com/ongvoa/), que conecta padrinhos a idosos para doação de presentes, é atualmente gerida de forma manual (WhatsApp/Direct do Instagram/planilhas). Isso gera sobrecarga administrativa, risco de erros no controle de presentes e dificuldade em dar baixa nas escolhas em tempo real, podendo levar à duplicação de apadrinhamentos ou à falta de presentes para alguns idosos.
+A dinâmica natalina da [ONG VOA](https://www.instagram.com/ongvoa/), que conecta padrinhos a idosos para doação de presentes, é atualmente gerida de forma manual (WhatsApp/Direct do Instagram/planilhas). Isso gera sobrecarga administrativa, risco de erros no controle de presentes e dificuldade em dar baixa nas escolhas em tempo real, podendo levar à duplicação de apadrinhamentos ou à falta de presentes para alguns idosos.
 
 
 
