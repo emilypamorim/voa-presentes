@@ -10,7 +10,7 @@ Estes requisitos focam na experiência do usuário externo que deseja realizar o
 
 | ID | Ator | Funcionalidade | Valor/Benefício |
 | :--- | :--- | :--- | :--- |
-| **HU01** | Padrinho | visualizar uma lista com o nome ou código do idoso e seu desejo de presente | eu possa escolher o que apadrinhar. |
+| **HU01** | Padrinho | visualizar uma lista de desejos de presente | eu possa escolher o que apadrinhar. |
 | **HU02** | Padrinho | saber se um presente já foi escolhido ou está disponível | eu não escolha um presente que já foi apadrinhado. |
 | **HU03** | Padrinho | clicar em um botão "Apadrinhar" | o presente seja reservado em meu nome. |
 | **HU04** | Padrinho | receber as orientações de entrega (contatos e endereço) | eu possa finalizar minha doação com sucesso. |

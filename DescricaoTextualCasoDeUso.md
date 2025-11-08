@@ -9,7 +9,7 @@
 | **Objetivo** | Permitir que um Padrinho selecione e reserve um desejo de presente de um idoso, garantindo a exclusividade da doação. |
 | **Pré-Condição** | O Padrinho está na página de Desejos. O presente tem o `Status` "Disponível". |
 | **Pós-Condição** | O presente tem seu `Status` alterado para "Reservado" e está associado a um registro de Padrinho. |
-| **Fluxo Principal** | 1. O Padrinho escolhe um presente e clica em "Apadrinhar". 2. O sistema exibe um formulário para coleta de dados do Padrinho (Nome, WPP, Email). 3. O Padrinho confirma a reserva. 4. O sistema verifica a disponibilidade e registra o Padrinho, mudando o `Status` do Desejo para "Reservado". 5. O sistema exibe a confirmação e as orientações de entrega (contatos, endereço, prazo). |
+| **Fluxo Principal** | 1. O Padrinho escolhe um presente e clica em "Apadrinhar". 2. O sistema exibe um formulário para coleta de dados do Padrinho (Nome, WhatsApp, Email). 3. O Padrinho confirma a reserva. 4. O sistema verifica a disponibilidade e registra o Padrinho, mudando o `Status` do Desejo para "Reservado". 5. O sistema exibe a confirmação e as orientações de entrega (Nome do voluntário recebedor, contatos, endereço, prazo). |
 | **Fluxos Alternativos**| **A1: Presente Indisponível (Conflito):** Se o presente for reservado por outro Padrinho no mesmo instante, o sistema nega a reserva, mantém o `Status` inalterado e exibe uma mensagem de erro, orientando o Padrinho a escolher outro item. |
 
 ---
