@@ -9,7 +9,7 @@ A dinâmica natalina da [ONG VOA](https://www.instagram.com/ongvoa/), que conect
 
 ## Descrição da Solução
 
-Criação de um sistema web (ou App) que centralize a lista de idosos, seus desejos e o processo de apadrinhamento. O sistema permitirá que o padrinho visualize os idosos disponíveis, selecione o presente desejado e confirme o apadrinhamento, dando baixa no item automaticamente e liberando a equipe da ONG para focar na logística e entrega.
+Criação de um sistema web (ou App) que centralize a lista de idosos, seus desejos e o processo de apadrinhamento. O sistema permitirá que o padrinho visualize os presentes disponíveis, selecione o presente desejado e confirme o apadrinhamento, dando baixa no item automaticamente e liberando a equipe da ONG para focar na logística e entrega.
 ## Autores
 
 - [@BiancaSchiav0](https://github.com/BiancaSchiav0)

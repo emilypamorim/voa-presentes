@@ -22,8 +22,8 @@ Estes requisitos focam nas funcionalidades de gestão e controle da campanha, ex
 
 | ID | Ator | Funcionalidade | Valor/Benefício |
 | :--- | :--- | :--- | :--- |
-| **HU06** | eu como aministrador | quero fazer login no sistema | para que apenas a equipe da ONG possa gerenciar a campanha. |
-| **HU07** | eu como ministrador |  quero cadastrar, editar e remover idosos e seus respectivos desejos | para que a lista de apadrinhamento esteja sempre atualizada. |
-| **HU08** | eu como aministrador | quero  visualizar um painel com o status de todos os presentes (disponível, reservado, entregue) | para que eu monitore o progresso da campanha. |
-| **HU09** | eu como aministrador | quero marcar um presente como "Entregue" após a doação física | para que eu saiba exatamente quais idosos foram atendidos. |
-| **HU10** | eu como aministrador |quero acessar os dados do padrinho que reservou um presente | para poder contatá-lo se houver necessidade. |
+| **HU06** | Eu como administrador | quero fazer login no sistema | para que apenas a equipe da ONG possa gerenciar a campanha. |
+| **HU07** | Eu como administrador |  quero cadastrar, editar e remover idosos e seus respectivos desejos | para que a lista de apadrinhamento esteja sempre atualizada. |
+| **HU08** | Eu como administrador | quero  visualizar um painel com o status de todos os presentes (disponível, reservado, entregue) | para que eu monitore o progresso da campanha. |
+| **HU09** | Eu como administrador | quero marcar um presente como "Entregue" após a doação física | para que eu saiba exatamente quais idosos foram atendidos. |
+| **HU10** | Eu como administrador |quero acessar os dados do padrinho que reservou um presente | para poder contatá-lo se houver necessidade. |
