@@ -1,0 +1,34 @@
+@startuml
+title Diagrama de Sequência: Reservar Presente
+
+actor Padrinho
+boundary "Sistema VOA Presentes" as Sistema
+control PadadinhoControle
+entity Desejo
+
+Padrinho -> Sistema: Visualizar Desejos Disponíveis()
+activate Sistema
+Sistema --> PadadinhoControle: Exibir lista de desejos
+activate PadadinhoControle
+
+Padrinho -> PadadinhoControle: reservar(idDesejo)
+
+PadadinhoControle -> Desejo: estaDisponivel()
+activate Desejo
+Desejo --> PadadinhoControle: true/false
+deactivate Desejo
+
+alt Desejo está Disponível
+    PadadinhoControle -> Desejo: atualizarStatus("Reservado")
+    activate Desejo
+    Desejo --> PadadinhoControle: status atualizado
+    deactivate Desejo
+
+    PadadinhoControle -> Padrinho: enviarConfirmacao()
+else Desejo está Reservado ou Entregue
+    PadadinhoControle --> Padrinho: Exibir mensagem: "Desejo não disponível"
+end
+
+deactivate PadadinhoControle
+deactivate Sistema
+@enduml
